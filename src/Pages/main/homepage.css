@@ -101,7 +101,7 @@
   align-items: center;
 }
 .diagram_pie_box {
-  margin: 20px 17px;
+  padding: 20px 17px;
   width: 45%;
 }
 .digram_text_style {

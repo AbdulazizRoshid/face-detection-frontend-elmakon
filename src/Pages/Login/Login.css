@@ -1,33 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.container {
-  padding-top: 12rem;
+.container_login {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../../utils/Hand\ Work.gif');
+  background-size: cover;
+  background-position: center;
 }
 .login {
-  width: 455px;
-  background-color: #fff;
-  padding: 2.5rem;
-  border-radius: 1.2rem;
-  font-family: 'Roboto';
+  width: 390px;
+  height: 431px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 44px 25px;
+  border-radius: 24px;
+  font-family: 'SF Pro Display';
+  color: #0054a5;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.4s ease;
+}
+.login:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.4s ease;
 }
 .input_login , .input_password{
-  margin-top: 0.3rem;
-  border-radius: 100px;
+  width: 320px;
+  height: 52px;
+  border-radius: 16px;
+  background: #f2f6fa;
+  border: none;
+  font: 14px 'DM Sans';
+  font-weight: 400;
+  padding: 0px 20px;
+  color: #0054a5 !important;
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px;
 }
-h1 {
+.login h1 {
+  width: 320px;
   font-size: 24px;
+  font-weight: bold;
+  text-align: left;
 }
-p {
-  font-size: 16px;
+.login p {
+  width: 320px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 38px;
 }
-form{
-  text-align: start;
+.login label{
+  font: 14px 'DM Sans';
+  font-weight: 400;
+  margin: 0 0 4px;
+  color: #0054a5;
+}
+.login ::placeholder{
+  font: 14px 'DM Sans';
+  font-weight: 400;
+  color: #ABC5DF !important;
+}
+.login form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .button {
-  background-color: #027373;
+  background-color: #0054a5;
+  border-radius: 1000px;
   border: none;
-  border-radius: 100px;
   color: white;
-  width: 367px !important;
-  height: 44px !important;
+  width: 320px;
+  height: 58px !important;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 24px;
 }
+
 

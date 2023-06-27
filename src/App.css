@@ -10,15 +10,15 @@
 
 /* NAVBAR */
 
-.navbar_box {
+/* .navbar_box {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-}
+} */
 
 /* navbar_top uchun css code */
 .ElmakonLogo {
-	width: 210px;
+	width: 200px;
 	height: auto;
 }
 .navbar_top {
@@ -82,7 +82,11 @@
 }
 
 /* LEFT bar */
-
+.left_bar{
+	margin: 0;
+	height: 100vh;
+	width: 240px;
+}
 .btns {
 	height: 84vh;
 	width: 100%;
@@ -125,7 +129,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100px;
+	height: 16vh;
 	color: #fff;
 }
 

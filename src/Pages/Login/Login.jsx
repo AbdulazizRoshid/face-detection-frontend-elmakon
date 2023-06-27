@@ -96,7 +96,7 @@ function Login() {
   }
 
   return (
-    <div className="container">
+    <div className="container_login">
       {isError && (
         <AlertModal
           title={text?.title}
@@ -110,10 +110,10 @@ function Login() {
       ) : (
         <center>
           <div className="login">
-            <h1>Tizimga kirish</h1>
-            <p>Boshqaruv paneliga o'tish</p>
+            <h1>Login</h1>
+            <p>Tizimga kirish uchun login parolingizni kiriting!</p>
             <form onSubmit={submit}>
-              <label htmlFor="Email">Email</label>
+              <label htmlFor="Email">Login</label>
               <input
                 onChange={(e) => handle(e)}
                 id="email"
@@ -122,20 +122,18 @@ function Login() {
                 className="form-control input_login"
                 placeholder="Email"
               />
-              <br />
-              <label htmlFor="Password">Password</label>
+              <label htmlFor="Password">Parol</label>
               <input
                 onChange={(e) => handle(e)}
                 id="password"
                 value={data.password}
                 type="password"
-                placeholder="Parol"
+                placeholder="********"
                 className="form-control input_password"
               />
-              <br />
               <center>
                 <button type="submit" className="button" onClick={submit}>
-                  Kirish
+                  Tizimga Kirish
                 </button>
               </center>
             </form>
@@ -147,3 +145,5 @@ function Login() {
 }
 
 export default Login;
+
+
