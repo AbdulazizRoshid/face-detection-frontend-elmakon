@@ -1,0 +1,14 @@
+.form{
+  width: 700px;
+  gap: 2rem;
+  margin: 2rem 0 0 5rem;
+}
+.report-btn{
+  width: 400px !important;
+  background-color: #027373;
+  color: white;
+}
+.report-btn:hover{
+  background-color: #027373 !important;
+  color: white !important;
+}

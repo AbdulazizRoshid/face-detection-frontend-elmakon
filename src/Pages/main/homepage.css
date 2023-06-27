@@ -1,0 +1,140 @@
+.mainPage {
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+.pie_cards {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 25vh;
+  padding: 0 3%;
+}
+.pie_cards_div {
+  width: 32%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 5px;
+  background: #fff;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.4s ease;
+}
+.pie_cards_div:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.4s ease;
+
+}
+.pie_cards_div > i {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  font-size: x-large;
+  background: #f2f6fa;
+  color: #027373;
+  margin: 20px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pie_cards_div > div > h6 {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  font-size: 14px;
+}
+.pie_cards_div > div > h4 {
+  display: flex;
+  justify-content: left;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.pie_charts {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 3%;
+  height: (75vh-70px);
+}
+.left_pie_charts {
+  text-align: left;
+  width: 48.5%;
+  height: 100%;
+  margin: 0px 5px;
+}
+
+.diagram_info_box {
+  width: 55%;
+  padding-right: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.left_pie_chart_diagram {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: all 0.4s ease;
+}
+.left_pie_chart_diagram:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.4s ease;
+}
+.diagram_info {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.diagram_info p {
+  margin: 0px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.diagram_pie_box {
+  margin: 20px 17px;
+  width: 45%;
+}
+.digram_text_style {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0px;
+  color: #000000;
+}
+.digram_text_style_number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight:bold;
+  font-size: 24px !important;
+  line-height: 28px;
+  color: #000000;
+}
+.digram_info_text_style {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 10px;
+  margin: 0;
+}
+.diagram_text_style_box{
+  height: 32px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}

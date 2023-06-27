@@ -1,0 +1,76 @@
+.new_wrapper-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 4rem;
+  z-index: 999999;
+}
+.users_in_branch , .all_users_list{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 0.5rem;
+  border-radius: 7px;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.110);
+  height: 350px;
+  padding: 5px;
+  overflow-y: auto;
+}
+.every_user{
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  width: 100%;
+  padding: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+.every_user span{
+  font-size: 13px;
+  font-weight: 500;
+  color: #027373;
+}
+
+.new_add_branch {
+  width: 900px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 2rem;
+  text-align: start;
+}
+
+.new_add_branch h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.new_modal_body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.new_modal_body h4 {
+  font-size: 20px;
+}
+
+.new_modal_body .input {
+  width: 250px;
+  border-radius: 7px;
+  border: 1px solid #dadada;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+}
+.title_new_modal h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+.users_in_branch::-webkit-scrollbar ,  .all_users_list::-webkit-scrollbar{
+  width: 7px;
+  border-radius: 7px;
+}
+.all_users_list::-webkit-scrollbar-thumb , .users_in_branch::-webkit-scrollbar-thumb {
+  background-color: #f2f6fa;
+  border-radius: 7px;
+}

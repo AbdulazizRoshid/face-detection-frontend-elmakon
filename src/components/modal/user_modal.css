@@ -1,0 +1,224 @@
+.user_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.user_modal_place {
+    width: 50%;
+    height: 500px;
+    border-radius: 7px;
+    z-index: 999;
+    overflow: hidden;
+    justify-content: center;
+    background: #fff;
+}
+
+.header_modal {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0px 30px;
+
+}
+
+.header_modal h3 {
+    
+    font-weight: 700;
+    font-size: 28px;
+    color: #121212;
+}
+
+.exit_user_icnon {
+    width: 16px;
+    height: 16px;
+
+    cursor: pointer;
+}
+
+/* User form */
+.form_user_modal {
+    padding: 10px 40px;
+}
+
+.form_user_modal form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.label_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #121212;
+}
+
+.user_input_field {
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #027373;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.avatar_place {
+    /* margin: 0 auto; */
+    padding: 10px;
+    width: 40%;
+    text-align: left;
+    border-radius: 12px;
+    min-height: 141.6px;
+    border: 1px solid #D9D9D9;
+}
+
+.avatar_picture {
+    height: 120px;
+    width: 120px;
+}
+
+.user_input_field_file {
+    /* background: pink; */
+    border: 1px solid #808080;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.upload_image_place {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 20px;
+    width: 400px;
+}
+
+.user_control_btn {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_control_btn>div {
+    text-align: right;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    width: 200px;
+}
+
+.user_ctr_1 {
+    background: #C00303;
+    color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+
+}
+
+.user_ctr_2 {
+    background: #0054a5;
+    color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.img_field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_image-container {
+    border-radius: 50%;
+    overflow: hidden; /* This ensures the image doesn't overflow the container */
+    width: 66px;
+    height: 66px;
+  
+    display: flex;
+    align-items: center; /* Set the width of the container to match the image */
+    /* Set the height of the container to match the image */
+  }
+  
+  .user_image-container img {
+    display: block; /* This ensures the image is centered within the container */
+    width: 100%; /* This ensures the image fills the container */
+    height: auto; /* This ensures the image scales proportionally */
+  }
+
+.user_input_field_avatar {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #D9D9D9;
+}
+
+/* btns */
+.user_post_btns_group {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding: 15px 10px;
+    /* margin-top: 5rem; */
+}
+
+.user_btns_box{
+    display: flex;
+    gap: 1rem;
+}
+
+.confirm_btn {
+    margin-left: 10px;
+    background: #0054a5;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.multi_select_input {
+    cursor: text;
+    border-radius: 100px;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid;
+    /* background: red; */
+
+}
+.multi_selection{
+    /* background: yellow; */
+    /* height: 200px; */
+    width: 95%;
+}
+#multi_select{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    border: 1px solid #d9d9d9;    
+}

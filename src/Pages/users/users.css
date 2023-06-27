@@ -1,0 +1,193 @@
+.user_list_green {
+  background-color: #027373;
+  color: white;
+  border-radius: 100px;
+  padding: 0.3rem 0.8rem;
+  border: none;
+}
+
+.user_list_red {
+  background-color: #c00303;
+  color: white;
+  border-radius: 100px;
+  padding: 0.3rem 0.8rem;
+
+  border: none;
+}
+
+.user_btn_icons {
+  height: 15px;
+  font-size: 20px;
+}
+
+/* Modal props */
+
+.modal_button {
+  position: relative;
+  height: 40px;
+  width: 100%;
+}
+
+.open_model_button {
+  background: #027373;
+  border: 1px solid #027373;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  top: 20px;
+  right: 15rem;
+}
+
+.filter_model_button {
+  width: 95px;
+  height: 51px;
+  background: #027373;
+  border: 1px solid #027373;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  position: absolute;
+  top: 20px;
+
+  right: 8rem;
+}
+
+.filter_model_button img {
+  color: white;
+  margin-right: 5px;
+}
+
+.open_model_button i {
+  width: 24px;
+  color: white;
+  height: 24px;
+}
+
+/* table uchun css code */
+
+.div_table {
+  height: 70vh !important;
+  width: 95%;
+  margin-top: 1rem !important;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #fff;
+  /* height: 70vh;
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #fff; */
+}
+
+.div_table_head {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 5% 20% 20% 15% 15% 25%;
+  color: #fff;
+  align-items: center;
+  height: 50px;
+  border-radius: 7px;
+  padding: 0px 1.5rem;
+  font-weight: 400;
+  background-color: #027373;
+  /* margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0px 10px;
+  background: #027373; */
+}
+
+.div_table_head p {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 0px !important;
+  text-align: start;
+}
+
+/* .div_table_body {
+  height: 88%;
+  overflow-y: scroll;
+} */
+
+.div_table_tbody {
+  height: 56px;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 5% 20% 20% 15% 15% 25%;
+  align-items: center;
+  border: 1px solid #027373;
+  color: #027373;
+  border-radius: 7px;
+  margin-top: 7px;
+}
+
+
+
+/* avatar */
+.user_avatar_picture {
+  border-radius: 100%;
+}
+
+.user_avatar_picture {
+  height: 50px;
+  width: 50px;
+  image-orientation: from-image;
+}
+
+.user_btns_box button {
+  cursor: pointer;
+}
+
+/* multi_select_input */
+
+/* user_list_avatar_and_name */
+#user_list_avatar_and_name {
+  display: grid;
+  grid-template-columns: 25% 20%;
+}
+.non_decoration {
+  color: black;
+  text-decoration: none;
+}
+
+.image-container {
+  border-radius: 50%;
+  overflow: hidden; /* This ensures the image doesn't overflow the container */
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center; /* Set the width of the container to match the image */
+  /* Set the height of the container to match the image */
+}
+
+.image-container img {
+  display: block; /* This ensures the image is centered within the container */
+  width: 100%; /* This ensures the image fills the container */
+  height: auto; /* This ensures the image scales proportionally */
+}
+
+.div_table_body {
+  height: 95%;
+  overflow-y: auto;
+}
+.div_table_body::-webkit-scrollbar {
+  width: 7px;
+  /* background: #F2F6FA; */
+  border-radius: 7px;
+}
+.div_table_body::-webkit-scrollbar-thumb {
+  background-color: #f2f6fa;
+  border-radius: 7px;
+}
