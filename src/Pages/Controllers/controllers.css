@@ -20,7 +20,7 @@
   border-radius: 7px;
   padding: 0px 1.5rem;
   font-weight: 400;
-  background-color: #027373;
+  background-color: #0054a5;
 }
 
 .controller_table_head p {
@@ -42,8 +42,8 @@
   /* grid-template-columns: 5% 22% 15% 15% 15% 20%; */
   grid-template-columns: 5% 20% 30% 15% 15% 15%;
   align-items: center;
-  border: 1px solid #027373;
-  color: #027373;
+  border: 1px solid #0054a5;
+  color: #0054a5;
   border-radius: 7px;
   margin-top: 7px;
 }

@@ -3,7 +3,7 @@ import React from "react";
 function PercentageShower(props) {
   const barStyle = {
     width: `${props.value}%`,
-    backgroundColor: "#027373",
+    backgroundColor: "#0054a5",
     height: "10px",
     borderRadius: "10px",
   };

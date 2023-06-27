@@ -23,7 +23,7 @@ export default function HomePage() {
           "#1F4E7C",
           "#0054A5",
           "#3585D2",
-          "#5E99D2",
+          "#5E99D2"
         ],
         borderColor: ["white"],
         borderWidth: 1,
@@ -42,7 +42,7 @@ export default function HomePage() {
           "#1F4E7C",
           "#0054A5",
           "#3585D2",
-          "#5E99D2",
+          "#5E99D2"
         ],
         borderColor: ["white"],
         borderWidth: 1,
@@ -77,16 +77,11 @@ export default function HomePage() {
 
               data: numLenth,
               backgroundColor: [
-                /*"#00376B",
+                  "#00376B",
                   "#1F4E7C",
                   "#0054A5",
                   "#3585D2",
-                  "#5E99D2" */
-                "#014B4B",
-                "#175656",
-                "#027373",
-                "#31B9B9",
-                "#55B9B9"
+                  "#5E99D2"
 
               ],
               borderColor: ["white"],
@@ -113,11 +108,11 @@ export default function HomePage() {
 
               data: numLenth,
               backgroundColor: [
-                "#014B4B",
-                "#175656",
-                "#027373",
-                "#31B9B9",
-                "#55B9B9"
+                "#00376B",
+                "#1F4E7C",
+                "#0054A5",
+                "#3585D2",
+                "#5E99D2"
               ],
               borderColor: ["white"],
               borderWidth: 1,
@@ -172,11 +167,11 @@ export default function HomePage() {
               {branchesEmploy?.map((s, idx) => {
 
                 let colors = [
-                  "#014B4B",
-                  "#175656",
-                  "#027373",
-                  "#31B9B9",
-                  "#55B9B9"
+                  "#00376B",
+                  "#1F4E7C",
+                  "#0054A5",
+                  "#3585D2",
+                  "#5E99D2"
                 ];
                 return (
                   <div className="diagram_info" key={idx}>
@@ -212,11 +207,11 @@ export default function HomePage() {
               {rolesEmploy?.map((s, idx) => {
 
                 let colors = [
-                  "#014B4B",
-                  "#175656",
-                  "#027373",
-                  "#31B9B9",
-                  "#55B9B9"
+                  "#00376B",
+                  "#1F4E7C",
+                  "#0054A5",
+                  "#3585D2",
+                  "#5E99D2"
                 ];
                 return (
                   <div className="diagram_info" key={idx}>

@@ -24,6 +24,7 @@ function UserListComponent({
   const [userImage , setUserImage] = useState(false)
   const [getUserImage , setGetUserImage] = useState(false)
 
+  console.log(`${process.env.REACT_APP_URI}`);
   return (
     <>
       {userImage && <div className="wrapper-modal">
@@ -32,7 +33,7 @@ function UserListComponent({
           </div>
           <center>
             <div className="image-modal">
-              <img src={`http://128.199.177.90:5002/api/users/img/${getUserImage}`} alt="" />
+              <img src={`${process.env.REACT_APP_URI}/users/img/${getUserImage}`} alt="" />
             </div>
           </center>
         </div>}
@@ -83,7 +84,7 @@ function UserListComponent({
                     >
                       <div className=" image-container">
                         <img
-                          src={`http://128.199.177.90:5002/api/users/img/${item?.user_id}`}
+                          src={`${process.env.REACT_APP_URI}/users/img/${item?.user_id}`}
                           alt="avatar_picture"
                           onClick={()=>{
                             setGetUserImage(item?.user_id);

@@ -111,7 +111,7 @@
 .per_cover_filler {
     width: 224.35px;
     height: 10px;
-    background: #027373;
+    background: #0054a5;
     z-index: 2;
     padding: 10px;
 }
@@ -179,7 +179,7 @@
 
 .edit_icon_div {
     background: #FFFFFF;
-    border: 1px solid #027373;
+    border: 1px solid #0054a5;
     border-radius: 100px;
     width: 50px;
     height: 27px;
@@ -196,6 +196,6 @@
     font-size: 16px;
     line-height: 19px;
 
-    color: #027373;
+    color: #0054a5;
 
 }

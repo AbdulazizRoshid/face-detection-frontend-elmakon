@@ -12,7 +12,7 @@ function UserProfileAllowedBranchesBar({branches = []}) {
           <div className="edit_icon_div">
             <i
               className="fa-solid fa-edit mx-2"
-              style={{ color: "#027373"}}
+              style={{ color: "#0054a5"}}
             ></i>
           </div>
         </div>

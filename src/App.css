@@ -59,7 +59,7 @@
 }
 
 #search {
-	color: #027373;
+	color: #0054a5;
 	height: 19.1px;
 	font-size: 19.1px;
 	width: 19.1px;
@@ -78,7 +78,7 @@
 .avatar>div{
 	font: 16px Roboto;
 	font-weight: 500;
-	color: #027373;
+	color: #0054a5;
 }
 
 /* LEFT bar */
@@ -106,16 +106,16 @@
 	border-radius: 8px;
 }
 .btn_navigate:hover {
-  background: #31b9b9;
+  background: #5E99D2;
 	color: #fff;
 }
 .btn_navigate.btn.active {
-  background: #31b9b9;
+  background: #5E99D2;
 	color: #fff;
 	border-right: 3px solid #fff;
 }
 .btn_navigate:active {
-  background: #31b9b9 !important;
+  background: #5E99D2 !important;
   color: #fff !important;
 }
 
@@ -152,7 +152,7 @@
 .greeting {
 	margin: 0px !important;
 	padding: 0px !important;
-	color: #027373;
+	color: #0054a5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -174,7 +174,7 @@
 .custom_add_btn {
 	width: 130px;
 	height: 40px;
-	background: #027373;
+	background: #0054a5;
 	border-radius: 7px;
 	border: none;
 	color: white;
@@ -192,7 +192,7 @@
 	background: #fff;
 	/* background: red; */
 	height: 100%;
-	color: #027373;
+	color: #0054a5;
 }
 .span_table_item_name {
 	font-size: 13px;
@@ -225,7 +225,7 @@
 	height: 44px;
 	border: none;
 	background-color: #fff;
-	color: #027373;
+	color: #0054a5;
 	border-radius: 7px;
 	text-align: center;
 	display: flex;

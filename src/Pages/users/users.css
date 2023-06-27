@@ -1,5 +1,5 @@
 .user_list_green {
-  background-color: #027373;
+  background-color: #0054a5;
   color: white;
   border-radius: 100px;
   padding: 0.3rem 0.8rem;
@@ -29,8 +29,8 @@
 }
 
 .open_model_button {
-  background: #027373;
-  border: 1px solid #027373;
+  background: #0054a5;
+  border: 1px solid #0054a5;
   border-radius: 10px;
   color: #fff;
   padding: 0.6rem 1.2rem;
@@ -42,8 +42,8 @@
 .filter_model_button {
   width: 95px;
   height: 51px;
-  background: #027373;
-  border: 1px solid #027373;
+  background: #0054a5;
+  border: 1px solid #0054a5;
   border-radius: 10px;
   color: #fff;
   padding: 0.6rem 1rem;
@@ -96,7 +96,7 @@
   border-radius: 7px;
   padding: 0px 1.5rem;
   font-weight: 400;
-  background-color: #027373;
+  background-color: #0054a5;
   /* margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -105,7 +105,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 0px 10px;
-  background: #027373; */
+  background: #0054a5; */
 }
 
 .div_table_head p {
@@ -126,8 +126,8 @@
   display: grid;
   grid-template-columns: 5% 20% 20% 15% 15% 25%;
   align-items: center;
-  border: 1px solid #027373;
-  color: #027373;
+  border: 1px solid #0054a5;
+  color: #0054a5;
   border-radius: 7px;
   margin-top: 7px;
 }

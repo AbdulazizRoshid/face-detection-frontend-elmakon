@@ -12,7 +12,7 @@ function UserProfileRightBar({ report }) {
             <span className="come_go" >Keldi</span>
             <i
               className="fa-solid fa-arrows-left-right mx-2"
-              style={{ color: "#027373" }}
+              style={{ color: "#0054a5" }}
             ></i>
             <span className="come_go" >Ketdi</span>
           </div>

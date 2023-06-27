@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import Logo from "../../utils/logo.png";
-// import Logo from "../../utils/Elmakon_logo.png";
+import Logo from "../../utils/Elmakon_logo_def.png";
 
 function Leftbar() {
   const navigate = useNavigate();
